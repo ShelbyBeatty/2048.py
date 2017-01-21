@@ -25,12 +25,6 @@ def emp(f):
             if f[y][x]==0:poses.append([y,x])
     return range
 
-def add_random(f):
-    empty=emp(f)
-    y,x=empty[randint(0,len(empty)-1)]
-    f[y][x]=2
-    if randint(0,9)>8:f[y][x]=4
-    return f
 
 def get_new_field():
     f=[]
