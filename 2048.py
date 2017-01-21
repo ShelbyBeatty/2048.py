@@ -23,7 +23,7 @@ def emp(f):
     for y in range(4):
         for x in range(4):
             if f[y][x]==0:poses.append([y,x])
-    return poses
+    return range
 
 def add_random(f):
     empty=emp(f)
